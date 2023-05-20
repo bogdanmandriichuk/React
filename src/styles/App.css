@@ -12,6 +12,8 @@
 
 .App {
     width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .post {
     display: flex;
@@ -22,6 +24,9 @@
     align-items: center;
 }
 
+.post__btns {
+    display: flex;
+}
 
 .remove-btn {
     margin-right: 0.5rem;
